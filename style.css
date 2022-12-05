@@ -82,8 +82,16 @@ body {
     margin: 0;
 }
 
-.second portion {
+.second-portion {
     display: flex;
-    justify-content: center;
     padding: 30px;
-}
+    flex-direction: column;
+        align-items: center;
+    
+        .head-of-second {
+            margin: 0;
+            padding: 0;
+        }
+    
+    
+        .second-of-second {}
