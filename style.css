@@ -1,14 +1,20 @@
 .main {
     display: flex;
     flex-direction: column;
+        position: fixed;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            z-index: 10;
 }
 
 .firstportion {
     background-color: #1F2937;
-    max-height: ;
     width: 100%;
     color: white;
     padding: 10px 50px 10px 50px;
+    flex: 1;
 }
 
 span {
@@ -17,7 +23,7 @@ span {
 }
 
 .header-bar {
-    height: 30px;
+    
     display: flex;
     justify-content: space-between;
 }
@@ -86,12 +92,55 @@ body {
     display: flex;
     padding: 30px;
     flex-direction: column;
-        align-items: center;
+    align-items: center;
+    flex: 1;
+    }
     
         .head-of-second {
-            margin: 0;
-            padding: 0;
-        }
-    
-    
-        .second-of-second {}
+font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.third-portion {
+    background-color: #E5E7EB;
+    flex: 1;
+}
+
+.third-p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.fourth-portion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+}
+
+.fourth-first {
+    background-color: #3882F6;
+    display: flex;
+
+    align-items: center;
+    width: 623px;
+    height: 100px;
+    padding: 10px;
+
+}
+
+
+.for-para {
+    font-size: 18px;
+}
+.forth-para {
+    flex: 1;
+
+}
+
+fourth-button {
+    flex: 1;
+}
