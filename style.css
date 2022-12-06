@@ -151,21 +151,21 @@ a {
     font-weight: 800;
 }
 
-.qutose {
+.quotes {
     display: flex;
     background-color: #E5E7EB;
-    justify-content: center;
+    padding-left:40PX ;
     align-items: center;
     flex-direction: column;
     gap: 15px;
 }
 
-.qutose-main,
-.qutose-name {
+.quotes-main,
+.quotes-name {
     font-size: 36px;
         color: #1F2937;
     }
-.qutose-name {
+.quotes-name {
     display: flex;
     font-size: 36px;
     color: #1F2937;
