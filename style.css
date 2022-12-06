@@ -21,9 +21,9 @@ body {
         padding: 5px 80px 0px 40px;
 }
 
-.logonlogotxt {
+.logo-n-logotxt {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .logo {
@@ -38,7 +38,7 @@ body {
 }
 
 #rpsl {
-    gap: 7px;
+    gap: 8px;
 }
 
 .rps,
@@ -55,7 +55,6 @@ body {
 .logotxt {
     font-size: 24px;
     color: #F9FAF8;
-    padding-top: 15px;
     font-weight: bolder;
 }
 
@@ -80,7 +79,7 @@ a {
     font-size: 18px;
 }
 
-.contentnimg {
+.content-n-img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,27 +118,27 @@ a {
         padding: 6px;
 }
 
-.contentnimg img {
+.content-n-img img {
     height: 300px;
         width: 450px;
         border:solid #E5E7EB;
         border-radius: 20px;
     }
 
-.qulities {
+.qualities {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 }
 
-.qulities-img {
+.qualities-img {
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
 }
 
-.qulities-img img {
+.qualities-img img {
     width: 200px;
     height: 200px;
     border-color: #3882F6;
